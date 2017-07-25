@@ -2,7 +2,7 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
 	    imageryProvider : new Cesium.ArcGisMapServerImageryProvider({
 	        url : 'http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer'
 	    }),
-	    baseLayerPicker : false,
+	    baseLayerPicker : true,
 	    geocoder : true,
 	    homeButton : true,
 	    infoBox : true,  
